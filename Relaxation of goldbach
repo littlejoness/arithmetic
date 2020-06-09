@@ -1,7 +1,8 @@
 import math 
 
 
-#sqfr(n) test if the integer n is squarefree or not. Outputs True if squarefree and False otherwise
+#sqfr(n) test if the integer n is squarefree or not. Outputs True if squarefree and False otherwise.
+
 
 def sqfr(n):
     n = abs(n)
@@ -15,7 +16,9 @@ def sqfr(n):
                 return False
         return True
     
+    
 #prime(n) test if the integer n is prime or not. Outputs True if prime and False otherwise.     
+    
     
 def prime(n):
     n = abs(n)
@@ -27,14 +30,17 @@ def prime(n):
                 return False
         return True    
     
+    
 #ap(n,a,p) test if the integer n is congruent to a modulo q.    
+    
     
 def ap(n,a,q):
     if (n-a) % q == 0:
         return True
     return False
 
-#count(n,a,q) counts the number of representation of n as the sum of a prime congruent to a modulo q and a squarefree integer
+
+#count(n,a,q) counts the number of representation of n as the sum of a prime congruent to a modulo q and a squarefree integer.
     
     
 def count(n,a,q):
