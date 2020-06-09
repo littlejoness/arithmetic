@@ -1,3 +1,8 @@
+#Given a positive integer n, we would like to count the number of representation of n as the sum of a prime congruent to a modulo q and a squarefree integer.
+
+
+
+
 import math 
 
 
